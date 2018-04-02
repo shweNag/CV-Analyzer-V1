@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0   
+http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sample</groupId>
+	<artifactId>sample-project</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<properties>
+		<poi.version>3.11-beta2</poi.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20140107</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.7-beta3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>3.9</version>
+		</dependency>
+
+		<!-- <dependency> <groupId>org.apache.tika</groupId> <artifactId>tika-parsers</artifactId> 
+			<version>1.17</version> </dependency> <dependency> <groupId>org.docx4j</groupId> 
+			<artifactId>docx4j</artifactId> <version>2.8.1</version> </dependency> <dependency> 
+			<groupId>org.jodconverter</groupId> <artifactId>jodconverter-core</artifactId> 
+			<version>4.0.0-RELEASE</version> </dependency> <dependency> <groupId>com.artofsolving</groupId> 
+			<artifactId>jodconverter</artifactId> <version>2.2.0</version> </dependency> -->
+
+
+	</dependencies>
+
+</project>
